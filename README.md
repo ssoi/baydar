@@ -24,4 +24,5 @@ distribution of genes that are more likely to be misclassified in a uniform
 allocation setting. This higher resolution comes at the sacrifice of resamples
 to non-borderline genes that should not need a very resolute null distribution
 for correct inference." 
-
+The intuition for the risk of misclassification can be visually summarized: <img
+src="http://www.biomedcentral.com/content/figures/1471-2105-10-198-1.jpg" />
