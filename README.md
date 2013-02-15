@@ -25,8 +25,9 @@ follows-
 >to non-borderline genes that should not need a very resolute null distribution
 >for correct inference." 
 
-The intuition for the risk of misclassification can be visually summarized: <img
-src="http://www.biomedcentral.com/content/figures/1471-2105-10-198-1.jpg" />
+The intuition for the risk of misclassification can be visually summarized: 
+<img src="http://www.biomedcentral.com/content/figures/1471-2105-10-198-1.jpg" />
+
 Here, two different densities are visualized; the red density corresponds to a
 scenario where the true p-value, p1, is close to p0 and thus there is more area
 under the curve; the blue density corresponds to a scenario where the true
