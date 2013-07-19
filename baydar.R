@@ -25,4 +25,3 @@ preal <- apply(testData, 1, function(z) t.test(x=z[groups == 0],
 print("Starting BayDAR")
 pboot <- baydar(d=testData, o=testStats, cntl=list(B0=100, B=500, K=100,
 	p0=0.05, tail=1), f=funTStat)
-

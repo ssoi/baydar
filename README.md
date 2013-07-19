@@ -6,11 +6,11 @@ scenarios (~1E+06). When analytical formulas are available the main problem is
 determining an appropriate threshold for rejecting the null hypotheses and
 controlling the family-wide error rate (FWER) or false discovery rate (FDR).
 However, often in the case of some test statistics an analytical formula is
-unavailable or the assumptions underpinning such a formula are unrealistic (e.g.
+unavailable or underlying model assumptions are unrealistic or unmet (e.g.
 small sample sizes or non-Gaussian data). In these cases, a resampling-based
 test is desirable. However, this approach can be computationally infeasible: To
 reject H0 at a significance threshold of 1E-06, which is common in GWAS studies,
-at 1 million SNPs would require 1 trillion resamples. 
+at 1 million SNPs would require at least 1 trillion resamples. 
 # Algorithm
 To avoid this pitall, [Wang *et al.*](http://www.biomedcentral.com/1471-2105/10/198/)
 proposed a Bayesian scheme  for the differential allocation of resamples. The
@@ -38,7 +38,7 @@ the shaded areas, which visualize the risk of misclassification, respectively.
 
 # Software 
 ## Description
-The code availble in this repository can be used to apply this algorithm to a
-matrix with a user-provided function to calculate the test-statistic.
+The code availble in this repository can be used to apply the BayDAR algorithm to a
+matrix with each row an observationwith a user-provided function to calculate the 
+test-statistic.
 ## Usage
-
